@@ -70,95 +70,168 @@ get_header(); ?>
             </ul>
         </section>
 
-        <!--        <section class="my-process" id="what-i-do">-->
-        <!--            <h2 class="h2">My Process</h2>-->
-        <!--            <article>-->
-        <!--                <div class="carousel-container">-->
-        <!--                    <ul class="carousel">-->
-        <!--                        <li>-->
-        <!--                            <div class="content">-->
-        <!--                                <div class="label">User experience</div>-->
-        <!--                                <img src="data:image/svg+xml,...">-->
-        <!--                                <h4 class="h4">01. Understand</h4>-->
-        <!--                                <p>Effective UX design prioritizes user needs...</p>-->
-        <!--                                <img src="/assets/understand.svg" class="abstract" alt="User experience">-->
-        <!--                            </div>-->
-        <!--                        </li>-->
-        <!--                        <li>-->
-        <!--                            <div class="content">-->
-        <!--                                <div class="label">User experience</div>-->
-        <!--                                <img src="data:image/svg+xml,...">-->
-        <!--                                <h4 class="h4">02. Discover</h4>-->
-        <!--                                <p>A comprehensive discovery phase is crucial...</p>-->
-        <!--                                <img src="/assets/discover.svg" class="abstract" alt="User experience">-->
-        <!--                            </div>-->
-        <!--                        </li>-->
-        <!--                        <li>-->
-        <!--                            <div class="content">-->
-        <!--                                <div class="label">User experience</div>-->
-        <!--                                <img src="data:image/svg+xml,...">-->
-        <!--                                <h4 class="h4">03. Wireframe</h4>-->
-        <!--                                <p>Wireframing is a critical UX design step...</p>-->
-        <!--                                <img src="/assets/wireframe.svg" class="abstract" alt="User experience">-->
-        <!--                            </div>-->
-        <!--                        </li>-->
-        <!--                        <li>-->
-        <!--                            <div class="content">-->
-        <!--                                <div class="label">User experience</div>-->
-        <!--                                <img src="data:image/svg+xml,...">-->
-        <!--                                <h4 class="h4">04. Prototype</h4>-->
-        <!--                                <p>Prototyping with Figma, Invisionapp, and UXPin...</p>-->
-        <!--                                <img src="/assets/prototype.svg" class="abstract" alt="User experience">-->
-        <!--                            </div>-->
-        <!--                        </li>-->
-        <!--                        <li>-->
-        <!--                            <div class="content">-->
-        <!--                                <div class="label">Testing</div>-->
-        <!--                                <img src="data:image/svg+xml,...">-->
-        <!--                                <h4 class="h4">05. Testing</h4>-->
-        <!--                                <p>Testing and monitoring user behavior...</p>-->
-        <!--                                <img src="/assets/testing.svg" class="abstract" alt="Testing">-->
-        <!--                            </div>-->
-        <!--                        </li>-->
-        <!--                    </ul>-->
-        <!--                </div>-->
-        <!--                <ul class="bullets">-->
-        <!--                    <li><a href="#" data-index="0"><div class="the-bullet active"></div></a></li>-->
-        <!--                    <li><a href="#" data-index="3"><div class="the-bullet"></div></a></li>-->
-        <!--                    <li><a href="#" data-index="6"><div class="the-bullet"></div></a></li>-->
-        <!--                </ul>-->
-        <!--            </article>-->
-        <!--        </section>-->
+<!--                <section class="my-process" id="what-i-do">-->
+<!--                    <h2 class="h2">My Process</h2>-->
+<!--                    <article>-->
+<!--                        <div class="carousel-container">-->
+<!--                            <ul class="carousel">-->
+<!--                                <li>-->
+<!--                                    <div class="content">-->
+<!--                                        <div class="label">User experience</div>-->
+<!--                                        <img src="data:image/svg+xml,...">-->
+<!--                                        <h4 class="h4">01. Understand</h4>-->
+<!--                                        <p>Effective UX design prioritizes user needs...</p>-->
+<!--                                        <img src="/assets/understand.svg" class="abstract" alt="User experience">-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <div class="content">-->
+<!--                                        <div class="label">User experience</div>-->
+<!--                                        <img src="data:image/svg+xml,...">-->
+<!--                                        <h4 class="h4">02. Discover</h4>-->
+<!--                                        <p>A comprehensive discovery phase is crucial...</p>-->
+<!--                                        <img src="/assets/discover.svg" class="abstract" alt="User experience">-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <div class="content">-->
+<!--                                        <div class="label">User experience</div>-->
+<!--                                        <img src="data:image/svg+xml,...">-->
+<!--                                        <h4 class="h4">03. Wireframe</h4>-->
+<!--                                        <p>Wireframing is a critical UX design step...</p>-->
+<!--                                        <img src="/assets/wireframe.svg" class="abstract" alt="User experience">-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <div class="content">-->
+<!--                                        <div class="label">User experience</div>-->
+<!--                                        <img src="data:image/svg+xml,...">-->
+<!--                                        <h4 class="h4">04. Prototype</h4>-->
+<!--                                        <p>Prototyping with Figma, Invisionapp, and UXPin...</p>-->
+<!--                                        <img src="/assets/prototype.svg" class="abstract" alt="User experience">-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <div class="content">-->
+<!--                                        <div class="label">Testing</div>-->
+<!--                                        <img src="data:image/svg+xml,...">-->
+<!--                                        <h4 class="h4">05. Testing</h4>-->
+<!--                                        <p>Testing and monitoring user behavior...</p>-->
+<!--                                        <img src="/assets/testing.svg" class="abstract" alt="Testing">-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        <ul class="bullets">-->
+<!--                            <li><a href="#" data-index="0"><div class="the-bullet active"></div></a></li>-->
+<!--                            <li><a href="#" data-index="3"><div class="the-bullet"></div></a></li>-->
+<!--                            <li><a href="#" data-index="6"><div class="the-bullet"></div></a></li>-->
+<!--                        </ul>-->
+<!--                    </article>-->
+<!--                </section>-->
 
         <section class="my-process" id="what-i-do">
-            <h2 class="h2">My Process</h2>
+            <h2 class="h2"><?php the_field('section_title'); ?></h2>
             <article>
                 <div class="carousel-container">
                     <ul class="carousel">
-                        <?php $process_total = get_field('process_total') ?>
-                        <?php for ($i = 1; $i <= $process_total; $i++) : ?>
-                            <li>
-                                <div class="content">
-                                    <div class="label"><?php the_field('label_' . $i); ?></div>
-                                    <img src="<?php the_field('svg_icon_' . $i); ?>">
-                                    <h4 class="h4"><?php the_field('heading_' . $i); ?></h4>
-                                    <p><?php the_field('description_' . $i); ?></p>
-                                    <img src="<?php echo esc_url(get_field('image_' . $i)); ?>" class="abstract"
-                                         alt="<?php the_field('image_alt_' . $i); ?>">
-                                </div>
-                            </li>
-                        <?php endfor; ?>
+                        <li>
+                            <div class="content">
+                                <div class="label"><?php the_field('card_category_1'); ?></div>
+                                <?php
+                                $icon_1 = get_field('card_icon_1');
+                                if ($icon_1) : ?>
+                                    <img src="<?php echo esc_url($icon_1['url']); ?>" alt="<?php echo esc_attr($icon_1['alt']); ?>">
+                                <?php endif; ?>
+                                <h4 class="h4"><?php the_field('card_title_1'); ?></h4>
+                                <p><?php the_field('card_description_1'); ?></p>
+                                <?php
+                                $image_1 = get_field('card_image_1');
+                                if ($image_1) : ?>
+                                    <img src="<?php echo esc_url($image_1['url']); ?>" class="abstract" alt="<?php echo esc_attr($image_1['alt']); ?>">
+                                <?php endif; ?>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <div class="label"><?php the_field('card_category_2'); ?></div>
+                                <?php
+                                $icon_2 = get_field('card_icon_2');
+                                if ($icon_2) : ?>
+                                    <img src="<?php echo esc_url($icon_2['url']); ?>" alt="<?php echo esc_attr($icon_2['alt']); ?>">
+                                <?php endif; ?>
+                                <h4 class="h4"><?php the_field('card_title_2'); ?></h4>
+                                <p><?php the_field('card_description_2'); ?></p>
+                                <?php
+                                $image_2 = get_field('card_image_2');
+                                if ($image_2) : ?>
+                                    <img src="<?php echo esc_url($image_2['url']); ?>" class="abstract" alt="<?php echo esc_attr($image_2['alt']); ?>">
+                                <?php endif; ?>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <div class="label"><?php the_field('card_category_3'); ?></div>
+                                <?php
+                                $icon_3 = get_field('card_icon_3');
+                                if ($icon_3) : ?>
+                                    <img src="<?php echo esc_url($icon_3['url']); ?>" alt="<?php echo esc_attr($icon_3['alt']); ?>">
+                                <?php endif; ?>
+                                <h4 class="h4"><?php the_field('card_title_3'); ?></h4>
+                                <p><?php the_field('card_description_3'); ?></p>
+                                <?php
+                                $image_3 = get_field('card_image_3');
+                                if ($image_3) : ?>
+                                    <img src="<?php echo esc_url($image_3['url']); ?>" class="abstract" alt="<?php echo esc_attr($image_3['alt']); ?>">
+                                <?php endif; ?>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <div class="label"><?php the_field('card_category_4'); ?></div>
+                                <?php
+                                $icon_4 = get_field('card_icon_4');
+                                if ($icon_4) : ?>
+                                    <img src="<?php echo esc_url($icon_4['url']); ?>" alt="<?php echo esc_attr($icon_4['alt']); ?>">
+                                <?php endif; ?>
+                                <h4 class="h4"><?php the_field('card_title_4'); ?></h4>
+                                <p><?php the_field('card_description_4'); ?></p>
+                                <?php
+                                $image_4 = get_field('card_image_4');
+                                if ($image_4) : ?>
+                                    <img src="<?php echo esc_url($image_4['url']); ?>" class="abstract" alt="<?php echo esc_attr($image_4['alt']); ?>">
+                                <?php endif; ?>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <div class="label"><?php the_field('card_category_5'); ?></div>
+                                <?php
+                                $icon_5 = get_field('card_icon_5');
+                                if ($icon_5) : ?>
+                                    <img src="<?php echo esc_url($icon_5['url']); ?>" alt="<?php echo esc_attr($icon_5['alt']); ?>">
+                                <?php endif; ?>
+                                <h4 class="h4"><?php the_field('card_title_5'); ?></h4>
+                                <p><?php the_field('card_description_5'); ?></p>
+                                <?php
+                                $image_5 = get_field('card_image_5');
+                                if ($image_5) : ?>
+                                    <img src="<?php echo esc_url($image_5['url']); ?>" class="abstract" alt="<?php echo esc_attr($image_5['alt']); ?>">
+                                <?php endif; ?>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <!--                <ul class="bullets">-->
-                <!--                    <li><a href="#" data-index="0"><div class="the-bullet active"></div></a></li>-->
-                <!--                    <li><a href="#" data-index="1"><div class="the-bullet"></div></a></li>-->
-                <!--                    <li><a href="#" data-index="2"><div class="the-bullet"></div></a></li>-->
-                <!--                    <li><a href="#" data-index="3"><div class="the-bullet"></div></a></li>-->
-                <!--                    <li><a href="#" data-index="4"><div class="the-bullet"></div></a></li>-->
-                <!--                </ul>-->
+                <ul class="bullets">
+                    <li><a href="#" data-index="0"><div class="the-bullet active"></div></a></li>
+                    <li><a href="#" data-index="3"><div class="the-bullet"></div></a></li>
+                    <li><a href="#" data-index="6"><div class="the-bullet"></div></a></li>
+                </ul>
             </article>
         </section>
+
+
+
 
 
     </main>
