@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; é a melhor pratica coloca-lo na Body e usar box-sizing: inherit; no Root*/
+  box-sizing: inherit;
+}
+
+html {
+  // this defines what 1rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+
+article {
+  padding: 15px;
+  .carousel-container {
+    overflow: hidden;
+    max-width: 1170px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel li {
+    min-width: 360px;
+    box-sizing: border-box;
+    //flex: 0 0 100%;
+
+  }
+
+  .bullets {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+
+  .bullets li {
+    margin: 0 5px;
+  }
+
+  .the-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+
+  .the-bullet.active {
+    background-color: #333;
+  }
+
+}
